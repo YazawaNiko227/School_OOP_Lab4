@@ -72,7 +72,7 @@ public class BankAccount {
 	@Override
 	public String toString() {
 
-		return String.format("%s | %s | %s", 
+		return String.format("%15s | %15s | %20s", 
 				getAccountNumber(),
 				getOwnerName(),
 				nf.format(getBalance()));
